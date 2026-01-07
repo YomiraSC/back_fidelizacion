@@ -39,28 +39,27 @@ import traceback
 # 1) VARIABLES DE ENTORNO (solo para PRUEBAS: texto plano)
 # ------------------------------------------------------------------------------
 # Clave de OpenAI (pruebas locales)
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 # Cadena de conexión a PostgreSQL (solo para pruebas)
-os.environ["DB_URI"] = "postgresql://maquisistema:sayainvestments1601@34.82.84.15:5432/bdMaqui?sslmode=disable"
-#os.environ["DB_URI"] = "postgresql://maquisistema:sayainvestments1601@192.168.192.3:5432/bdMaqui?sslmode=disable"
+os.environ["DB_URI"] = ""
 
 # Credenciales de Elasticsearch RAG (solo para pruebas)
-os.environ["ELASTIC_URL"]      = "http://34.83.130.207:9200"
+os.environ["ELASTIC_URL"]      = ""
 os.environ["ELASTIC_USER"]     = "elastic"
 os.environ["ELASTIC_PASSWORD"] = "P=IK-doIv668orND5FmG"
 os.environ["ELASTIC_INDEX"]    = "fidelizacion-v1"
 
 # Twilio API Keys (pruebas locales)
 # Reemplaza con tus valores para probar localmente
-TWILIO_ACCOUNT_SID = "AC0b2218b3d58f48ed24ea8ba33af2d75f"
-TWILIO_AUTH_TOKEN  = "550219536f683ffad554f007562cf1fb"
+TWILIO_ACCOUNT_SID = ""
+TWILIO_AUTH_TOKEN  = ""
 CURRENT_SENDER = None
 
 
 # --- WhatsApp Cloud API (Meta) ---
-WHATSAPP_TOKEN = "EAASOlirAIFQBPGuwiaN6TnUNE1bTgwsGeQ3W4nYkmHZBmddkCasjdmt8Y8fjqZBQQTR87LZBNM1EGil1HATLwAbUKo1xvxHEeADgB2nwAQ1wKkuDZCajKlfIUYMtI7DgV55umLhUvolQZAwBOskrxozZAmv756yftxZCr5RGxUv86dWKyzDjZAjIXXFQiiZBSkYZBhFgZDZD"
-PHONE_NUMBER_ID = "768639522993701"
+WHATSAPP_TOKEN = ""
+PHONE_NUMBER_ID = ""
 VERIFY_TOKEN = "token_fide"  # usa el mismo que pusiste en Meta
 
 # ------------------------------------------------------------------------------
